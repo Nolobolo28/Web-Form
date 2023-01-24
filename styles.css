@@ -5,13 +5,12 @@
 }
 
 body {
-  background: url("https://thumbs.dreamstime.com/z/mexican-food-seamless-pattern-burrito-taco-hot-pepper-green-lettuce-colorful-background-cute-style-vector-illustration-144492814.jpg");
-  background-size: cover;
-  background-position: center;
+  background: url("https://source.unsplash.com/BpmEx2YgqWM");
+  background-size: contain;
   font-family: "Verdana", sans-serif;
   font-size: 1rem;
   color: rgb(173, 32, 103);
-  text-shadow: 2px 2px rgb(41, 18, 18);
+  text-shadow: 2px 2px rgb(48, 11, 11);
   font-weight: 700;
 }
 
