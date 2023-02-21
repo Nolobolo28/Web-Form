@@ -1,71 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Loco's Taco Survey</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Loco's Tacos Survey</h1>
-        <h3>Thank you for choosing Loco's Tacos</h3>
-        <main>
-            <form id="survey-form">
-                
-                <label class="label-block" id="first-label" for="name">Name</label>
-                <input class="input-block" id="name" type="text" placeholder="Enter your name" required></input>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>NavBar</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="navbar-title">Brand Name</div>
+      <div id="navbar-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="container">
+      <div>
+        <h3>Enter Your Details</h3>
+        <label for="full-name">Enter Your Full Name</label>
+        <input id="full-name" type="text" name="fullName" />
 
-                <label class="label-block" for="email">Email</label>
-                <input class="input-block" id="email" type="email" placeholder="Enter your email" required></input>
+        <label for="full-name">Enter Your Email</label>
+        <input id="full-name" type="email" name="fullName" />
 
-                <label class="label-block" for="birthday">Age</label>
-                <input class="input-block date" id="birthday" type="date" placeholder="Enter your age"></input>
-            
-                <hr>
-
-                <label class="label-block drop-label" for="drop-down">What kind of ethusist are you?</label>
-                    <select id="drop-down">
-                        <option value="1">Newbie</option>
-                        <option value="2">Knowledgeable</option>
-                        <option value="3">Loco's Tacos enjoyer</option>
-                        <option value="4">Ultimate taco critic</option>
-                    </select>
-                <hr>
-                <div class="radio-div">
-                    How likely are you to recommend Loco's Tacos to a friend?
-
-                    <input id="definitely" class="input-radio" name="recommends" type="radio" value="1"></input>
-                    <label for="definitely" class="label-radio">Definitely</label>
-
-                    <input id="maybe" class="input-radio" name="recommends" type="radio" value="2"></input>
-                    <label for="maybe" class="label-radio">Maybe</label>
-
-                    <input id="notsure" class="input-radio" name="recommends" type="radio" value="3"></input>
-                    <label for="notsure" class="label-radio">Not Sure</label>
-                </div>
-                <hr>
-
-                <div class="checkbox-div">Favority things about Loco's Tacos?
-                    <input id="hospitality" class="checkbox-input" type="checkbox" name="hospitality" value="1"></input>
-                    <label for="hospitality">Hospitality</label>
-
-                    <input id="variety" class="checkbox-input" type="checkbox" name="variety" value="2"></input>
-                    <label for="variety">Variety</label>
-
-                    <input id="dining" class="checkbox-input" type="checkbox" name="dining" value="3"></input>
-                    <label for="dining">Dining</label>
-
-                    <input id="mascot" class="checkbox-input" type="checkbox" name="mascot" value="4"></input>
-                    <label for="mascot">Mascot</label>
-
-                    <input id="authentic" class="checkbox-input" type="checkbox" name="authentic" value="5"></input>
-                    <label for="authentic">Authentic</label>
-                </div>
-                <hr>
-                <p class="footer-p">Any additional comments or suggestions?</p>
-                    <textarea id="suggestion" name="suggestion" placeholder="Enter your text here..." cols="43" rows="6"></textarea>
-                    <button id="submit-btn">Send</button>
-            </form>
-        </main>
-    </body>
+        <label for="full-name">Enter Your Birthday</label>
+        <input id="full-name" type="date" name="fullName" />
+      </div>
+    </div>
+  </body>
 </html>
